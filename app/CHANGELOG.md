@@ -59,3 +59,13 @@ Audit trail: `audits/i18n/es-review.csv`.
   additional three RewardScreen HTML snapshots cover the unrouted reward
   flow. Summary `visual-qa.json` records `noHorizontalOverflow=true` for every
   capture (T3).
+
+### Added — Launch & compliance (2026-05-06, OAS-430 / OAS-431)
+
+- Source published to [github.com/TMDLRG/WorldGame](https://github.com/TMDLRG/WorldGame)
+  (`main` branch).
+- Production deployment via Vercel CLI (`npx vercel --prod` from `app/`).
+- Playwright `e2e/third-party.spec.ts` asserts zero third-party network hosts
+  on initial load (OAS-430-T2, NFR-SEC-01).
+- CSP + HSTS contract remains enforced in CI via `src/config/vercel.csp.test.ts`
+  (OAS-430-T3 / OAS-420-T2 lineage).
