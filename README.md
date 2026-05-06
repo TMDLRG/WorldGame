@@ -4,6 +4,12 @@ A static, kid-safe educational SPA (Vite + React + TypeScript) deployed to Verce
 
 **Repository:** [github.com/TMDLRG/WorldGame](https://github.com/TMDLRG/WorldGame)
 
+## Deployment (Vercel)
+
+- **Import** this repo in the [Vercel dashboard](https://vercel.com) and set **Root Directory** to `app` (the Vite app and [app/vercel.json](app/vercel.json) live there).
+- **Production build**: `npm run build` → static output in `app/dist`; SPA rewrites and security headers are defined in `app/vercel.json`.
+- **CLI**: from `app/`, `npx vercel --prod` deploys using the linked team/project. After GitHub is connected, pushes to `main` should trigger Preview / Production per your project settings.
+
 ## Layout
 
 ```
@@ -34,9 +40,10 @@ npm run build    # emits app/dist with hashed assets
 
 1. `npm ci`
 2. `npm run lint`
-3. `npm run typecheck`
-4. `npm test` (vitest)
-5. `npm run build`
+3. `npm run i18n:parity`
+4. `npm run typecheck`
+5. `npm test` (vitest)
+6. `npm run build`
 
 `main` is protected. Required status checks before merge:
 
