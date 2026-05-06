@@ -9,6 +9,7 @@ A static, kid-safe educational SPA (Vite + React + TypeScript) deployed to Verce
 - **Import** this repo in the [Vercel dashboard](https://vercel.com) and set **Root Directory** to `app` (the Vite app and [app/vercel.json](app/vercel.json) live there).
 - **Production build**: `npm run build` → static output in `app/dist`; SPA rewrites and security headers are defined in `app/vercel.json`.
 - **CLI**: from `app/`, `npx vercel --prod` deploys using the linked team/project. After GitHub is connected, pushes to `main` should trigger Preview / Production per your project settings.
+- If unauthenticated requests return **401**, turn off **Deployment Protection** for this project (Vercel → Project → Settings → Deployment Protection), or open the URL while signed into the same Vercel team.
 
 ## Layout
 
@@ -47,7 +48,7 @@ npm run build    # emits app/dist with hashed assets
 
 `main` is protected. Required status checks before merge:
 
-- `CI / lint / typecheck / build / unit`
+- `CI / lint / i18n:parity / typecheck / build / unit`
 - 1 reviewer approval
 
 CI runtime budget: under 4 minutes for a clean repo (typical: ~2 minutes).
