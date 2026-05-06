@@ -60,6 +60,16 @@ Audit trail: `audits/i18n/es-review.csv`.
   flow. Summary `visual-qa.json` records `noHorizontalOverflow=true` for every
   capture (T3).
 
+### Fixed — Game routes mount real boards (2026-05-06, post-launch)
+
+- `routes/AppRouter.tsx` no longer renders a placeholder for
+  `/play/shape-memory`, `/play/color-shape`, `/play/math-match`. Each route now
+  mounts the corresponding `ShapeMemoryBoard`, `ColorShapeBoard`, or
+  `MathMatchBoard` and shows `RewardScreen` on completion (with Play again /
+  Choose another game), plus a `Back home` affordance during play.
+- `routes/AppRouter.test.tsx` updated from placeholder assertions to assert
+  the real game UIs (grid, prompts, choice buttons) on every play route.
+
 ### Added — Launch & compliance (2026-05-06, OAS-430 / OAS-431)
 
 - Source published to [github.com/TMDLRG/WorldGame](https://github.com/TMDLRG/WorldGame)
