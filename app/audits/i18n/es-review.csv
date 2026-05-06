@@ -1,0 +1,30 @@
+key,en,current_es,final_es,verdict,note
+home.title,XSWU,XSWU,XSWU,Approved,Brand string; identical across locales.
+home.trustBanner,No ads. No accounts. No tracking.,Sin anuncios. Sin cuentas. Sin rastreo.,Sin anuncios. Sin cuentas. Sin rastreo.,Approved,Three short clauses parallel the English; neutral Latin American Spanish.
+home.languageLabel,Language,Idioma,Idioma,Approved,Standard term; works for ages 4-9.
+home.ageBandLabel,Age,Edad,Edad,Approved,Common everyday word for age.
+home.modeLabel,Mode,Modo,Modo,Approved,Direct cognate; clear for ages 4-9.
+home.playCta,Play,Jugar,Jugar,Approved,Infinitive form is the conventional Spanish UI label for a primary CTA.
+mode.shapeMemory,Shape Memory,Memoria de formas,Memoria de formas,Approved,Reads naturally; aligns with Color y forma sibling.
+mode.colorShape,Color & Shape,Color y forma,Color y forma,Approved,Direct one-to-one mapping; concise.
+mode.math,Math Match,Suma rapida,Suma rápida,Revised,Missing acute accent on rápida; rápida is required by Spanish orthography.
+ageBand.4-5,4 to 5,4 a 5,4 a 5,Approved,Numbers + a (range word) is the natural Spanish form.
+ageBand.6-7,6 to 7,6 a 7,6 a 7,Approved,Numbers + a (range word) is the natural Spanish form.
+ageBand.8-9,8 to 9,8 a 9,8 a 9,Approved,Numbers + a (range word) is the natural Spanish form.
+language.en,English,Ingles,Inglés,Revised,Missing acute accent on the final é; Inglés is required by Spanish orthography.
+language.hi,Hindi,Hindi,Hindi,Approved,Loanword; same form across en/es.
+language.es,Spanish,Espanol,Español,Revised,Missing eñe (ñ); Español is the correct endonym.
+prompt.colorShape,Find the {color} {shape},Encuentra el {shape} {color},Encuentra el {shape} {color},Approved,"Spanish noun-adjective order places shape before color (e.g., círculo rojo); placeholder order intentionally inverts vs English."
+prompt.math,What is {expression}?,Cuanto es {expression}?,¿Cuánto es {expression}?,Revised,Missing opening question mark and acute accent on Cuánto; both are required by Spanish orthography.
+feedback.tryAgain,Try again,Intentalo otra vez,Inténtalo otra vez,Revised,Missing acute accent on Inténtalo (esdrújula word); accent is required.
+feedback.greatJob,Great job!,Muy bien!,¡Muy bien!,Revised,Missing opening exclamation mark; Spanish requires paired exclamation punctuation.
+reward.title,Great job!,Muy bien!,¡Muy bien!,Revised,Mirrors feedback.greatJob; missing opening exclamation mark.
+reward.playAgain,Play again,Jugar de nuevo,Jugar de nuevo,Approved,Infinitive form mirrors home.playCta; de nuevo is universal across regions.
+reward.backHome,Back home,Volver al inicio,Volver al inicio,Approved,Standard UI phrase for return-to-home in Spanish apps.
+reward.chooseAnother,Choose another game,Elegir otro juego,Elegir otro juego,Approved,Infinitive form mirrors other reward CTAs; short enough to fit at 375 px.
+a11y.languageSelected,{language} selected,{language} seleccionado,{language} seleccionado,Approved,Masculine ending agrees with idioma (idioma is masculine in Spanish).
+a11y.ageBandSelected,Age {band} selected,Edad {band} seleccionada,Edad {band} seleccionada,Approved,Feminine ending agrees with edad (edad is feminine).
+a11y.modeSelected,{mode} selected,{mode} seleccionado,{mode} seleccionado,Approved,Masculine ending agrees with modo.
+a11y.cardFaceDown,"Card, face down",Carta boca abajo,Carta boca abajo,Approved,Idiomatic phrase for face-down card; widely understood across Spanish-speaking regions.
+a11y.cardRevealed,{shape} card,Carta {shape},Carta {shape},Approved,Spanish word order: noun before placeholder is natural here.
+a11y.skipToMain,Skip to main content,Saltar al contenido principal,Saltar al contenido principal,Approved,Standard a11y register used by Spanish screen-reader localizations.

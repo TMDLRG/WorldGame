@@ -1,0 +1,22 @@
+# App build artifacts
+app/node_modules/
+app/dist/
+
+# Local env / deploy tokens
+.env
+.env.*
+.vercel
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.local
+
+# Playwright & test artifacts
+**/test-results/
+**/playwright-report/
+**/blob-report/
+
+# Logs
+*.log
+npm-debug.log*

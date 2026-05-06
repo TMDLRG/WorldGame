@@ -1,0 +1,30 @@
+key,en,current_hi,final_hi,verdict,note
+home.title,XSWU,XSWU,XSWU,Approved,Brand string; identical across locales.
+home.trustBanner,No ads. No accounts. No tracking.,कोई विज्ञापन नहीं। कोई खाता नहीं। कोई ट्रैकिंग नहीं।,कोई विज्ञापन नहीं। कोई खाता नहीं। कोई ट्रैकिंग नहीं।,Approved,Three short clauses parallel the English; ट्रैकिंग is an established loanword in modern Hindi privacy notices.
+home.languageLabel,Language,भाषा,भाषा,Approved,Standard term; works for ages 4-9.
+home.ageBandLabel,Age,उम्र,उम्र,Approved,Common everyday word for age.
+home.modeLabel,Mode,मोड,मोड,Approved,Loanword widely understood in Hindi UI; alternative खेल is ambiguous between game and play.
+home.playCta,Play,खेलें,खेलें,Approved,Polite imperative form; matches the Spanish polite imperative.
+mode.shapeMemory,Shape Memory,आकृति स्मरण,आकृति याद,Revised,स्मरण is literary/formal; याद is the common everyday word for memory and is age-appropriate for 4-9.
+mode.colorShape,Color & Shape,रंग और आकृति,रंग और आकृति,Approved,Direct one-to-one mapping; renders cleanly at 375 px in trial.
+mode.math,Math Match,गणित जोड़,गणित मिलान,Revised,जोड़ means addition only; मिलान means match and aligns with English Math Match across all ages.
+ageBand.4-5,4 to 5,4 से 5,4 से 5,Approved,Numbers + से (range word) is the natural Hindi form.
+ageBand.6-7,6 to 7,6 से 7,6 से 7,Approved,Numbers + से (range word) is the natural Hindi form.
+ageBand.8-9,8 to 9,8 से 9,8 से 9,Approved,Numbers + से (range word) is the natural Hindi form.
+language.en,English,अंग्रेज़ी,अंग्रेज़ी,Approved,Standard endonym used in school and media.
+language.hi,Hindi,हिन्दी,हिन्दी,Approved,Standard endonym; matches Devanagari conventions used in school texts.
+language.es,Spanish,स्पैनिश,स्पैनिश,Approved,Loanword from English Spanish; widely understood and unambiguous.
+prompt.colorShape,Find the {color} {shape},{color} {shape} ढूँढें,{color} {shape} ढूँढें,Approved,Polite imperative ढूँढें matches the home.playCta register.
+prompt.math,What is {expression}?,{expression} कितना है?,{expression} कितना है?,Approved,Question form is natural and concise.
+feedback.tryAgain,Try again,फिर कोशिश करें,फिर कोशिश करें,Approved,Encouraging polite imperative; not corrective.
+feedback.greatJob,Great job!,शाबाश!,शाबाश!,Approved,Classic kid praise; widely used across Indian Hindi-speaking regions.
+reward.title,Great job!,शाबाश!,शाबाश!,Approved,Mirrors feedback.greatJob for consistency.
+reward.playAgain,Play again,फिर खेलें,फिर खेलें,Approved,Mirrors home.playCta with फिर (again) prefix.
+reward.backHome,Back home,वापस होम,घर वापस,Revised,होम is a partial English loanword; घर वापस uses plain Hindi (घर = home) and is clearer for ages 4-9.
+reward.chooseAnother,Choose another game,एक और खेल चुनें,एक और खेल चुनें,Approved,Reads naturally; एक और (one more / another) is age-appropriate.
+a11y.languageSelected,{language} selected,{language} चुनी गई,{language} चुनी गई,Approved,Feminine gender agrees with भाषा (language).
+a11y.ageBandSelected,Age {band} selected,उम्र {band} चुनी गई,उम्र {band} चुनी गई,Approved,Feminine gender agrees with उम्र (age).
+a11y.modeSelected,{mode} selected,{mode} चुना गया,{mode} चुना गया,Approved,Masculine gender agrees with मोड (mode).
+a11y.cardFaceDown,"Card, face down","कार्ड, उल्टा","कार्ड, उल्टा",Approved,Loanword कार्ड is widely used; उल्टा (upside-down) reads as face-down in card-game context.
+a11y.cardRevealed,{shape} card,{shape} कार्ड,{shape} कार्ड,Approved,Postpositive structure is natural in Hindi.
+a11y.skipToMain,Skip to main content,मुख्य सामग्री पर जाएँ,मुख्य सामग्री पर जाएँ,Approved,A11y register; मुख्य सामग्री is the standard accessibility term used by Hindi screen-reader localizations.

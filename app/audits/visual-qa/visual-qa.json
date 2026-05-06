@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-05-06T12:55:26.498Z",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "routes": [
+    "home",
+    "shape-memory",
+    "color-shape",
+    "math-match"
+  ],
+  "locales": [
+    "en",
+    "hi",
+    "es"
+  ],
+  "results": [
+    {
+      "route": "home",
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "home",
+      "locale": "hi",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "home",
+      "locale": "es",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "shape-memory",
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "shape-memory",
+      "locale": "hi",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "shape-memory",
+      "locale": "es",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "color-shape",
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "color-shape",
+      "locale": "hi",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "color-shape",
+      "locale": "es",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "math-match",
+      "locale": "en",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "math-match",
+      "locale": "hi",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "math-match",
+      "locale": "es",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "noHorizontalOverflow": true
+    }
+  ]
+}
