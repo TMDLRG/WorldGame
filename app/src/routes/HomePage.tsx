@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useT } from '../i18n/useLocale'
 import { LanguageSelector } from '../components/LanguageSelector'
 import { AgeBandSelector } from '../components/AgeBandSelector'
@@ -25,6 +26,9 @@ export function HomePage({ onPlay }: HomePageProps = {}) {
         <LanguageSelector />
         <AgeBandSelector />
         <ModeSelector onPlay={onPlay} />
+        <nav aria-label={t('guide.openLink')}>
+          <Link to="/help">{t('guide.openLink')}</Link>
+        </nav>
       </main>
     </>
   )

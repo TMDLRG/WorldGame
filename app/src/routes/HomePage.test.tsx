@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { act, render, screen, within } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { MemoryRouter } from 'react-router-dom'
 import { LocaleProvider } from '../i18n/LocaleProvider'
 import { useLocale } from '../i18n/useLocale'
 import { HomePage } from './HomePage'
@@ -50,9 +51,11 @@ function LocaleProbe({ probeRef }: { probeRef: { current: ProbeRef | null } }) {
 describe('OAS-421-T1 HomePage', () => {
   it('renders the localized title and trust banner in English by default', () => {
     render(
-      <LocaleProvider initialLocale="en">
-        <HomePage />
-      </LocaleProvider>,
+      <MemoryRouter>
+        <LocaleProvider initialLocale="en">
+          <HomePage />
+        </LocaleProvider>
+      </MemoryRouter>,
     )
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('XSWU')
     expect(
@@ -62,9 +65,11 @@ describe('OAS-421-T1 HomePage', () => {
 
   it('exposes labelled groups for language, age band, and mode selection', () => {
     render(
-      <LocaleProvider initialLocale="en">
-        <HomePage />
-      </LocaleProvider>,
+      <MemoryRouter>
+        <LocaleProvider initialLocale="en">
+          <HomePage />
+        </LocaleProvider>
+      </MemoryRouter>,
     )
     const language = screen.getByRole('radiogroup', { name: 'Language' })
     const age = screen.getByRole('radiogroup', { name: 'Age' })
@@ -80,10 +85,12 @@ describe('OAS-421-T1 HomePage', () => {
   it('re-renders all labels in Hindi when locale switches and shows no English fallback copy', () => {
     const probeRef: { current: ProbeRef | null } = { current: null }
     render(
-      <LocaleProvider initialLocale="en">
-        <LocaleProbe probeRef={probeRef} />
-        <HomePage />
-      </LocaleProvider>,
+      <MemoryRouter>
+        <LocaleProvider initialLocale="en">
+          <LocaleProbe probeRef={probeRef} />
+          <HomePage />
+        </LocaleProvider>
+      </MemoryRouter>,
     )
     expect(probeRef.current).not.toBeNull()
     act(() => {
@@ -104,9 +111,11 @@ describe('OAS-421-T1 HomePage', () => {
 
   it('exposes a top-level main landmark for the home screen', () => {
     render(
-      <LocaleProvider initialLocale="en">
-        <HomePage />
-      </LocaleProvider>,
+      <MemoryRouter>
+        <LocaleProvider initialLocale="en">
+          <HomePage />
+        </LocaleProvider>
+      </MemoryRouter>,
     )
     expect(screen.getByRole('main')).toBeInTheDocument()
   })

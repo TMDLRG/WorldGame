@@ -28,6 +28,20 @@ export const en = {
   'a11y.cardFaceDown': 'Card, face down',
   'a11y.cardRevealed': '{shape} card',
   'a11y.skipToMain': 'Skip to main content',
+  'guide.openLink': 'How to play',
+  'guide.title': 'How to play XSWU',
+  'guide.kidsHeading': 'For kids',
+  'guide.kidsWelcome': 'Welcome! Pick your language, your age, and a game. Tap to play.',
+  'guide.kidsShapeMemory': 'Shape Memory: tap two cards to flip them. If they match, they stay up. Find every pair to win.',
+  'guide.kidsColorShape': 'Color and Shape: read the prompt, then tap the matching picture. There is no clock.',
+  'guide.kidsMath': 'Math Match: read the question, then tap the right number. You can try again if you miss.',
+  'guide.kidsHaveFun': 'There are no points and no timer. Take your time and have fun!',
+  'guide.parentsHeading': 'For parents',
+  'guide.parentsPrivacy': 'XSWU collects no personal information. There are no accounts, no ads, no third-party trackers, and no network calls outside this site.',
+  'guide.parentsAgeBands': 'Age bands tune difficulty: 4 to 5 is gentle (small grids, counting), 6 to 7 adds basic add and subtract, 8 to 9 covers numbers up to 20 with simple multiplication.',
+  'guide.parentsModes': 'Three modes are available: Shape Memory builds visual recall, Color and Shape practices attribute matching, Math Match practices number recognition and arithmetic.',
+  'guide.parentsAccessibility': 'All controls are keyboard reachable. Animations respect the prefers-reduced-motion setting in your operating system or browser.',
+  'guide.parentsLocalStorage': 'Your language, age, and last-played mode are saved in your browser only. Clear your browser site data to reset them.',
 } as const
 
 export type EnDict = typeof en

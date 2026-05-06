@@ -8,6 +8,7 @@ import { MathMatchBoard } from '../modes/math-match/MathMatchBoard'
 import { RewardScreen, type GameMode } from '../components/RewardScreen'
 import type { Mode } from '../state/usePreferences'
 import { HomePage } from './HomePage'
+import { UserGuide } from './UserGuide'
 
 const MODE_TO_PATH: Record<Mode, string> = {
   shapeMemory: '/play/shape-memory',
@@ -128,6 +129,7 @@ export function AppRouter() {
             />
           }
         />
+        <Route path="/help" element={<UserGuide />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </LocaleProvider>

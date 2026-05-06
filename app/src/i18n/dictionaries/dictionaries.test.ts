@@ -28,6 +28,20 @@ const REQUIRED_KEYS = [
   'a11y.languageSelected',
   'a11y.ageBandSelected',
   'a11y.modeSelected',
+  'guide.openLink',
+  'guide.title',
+  'guide.kidsHeading',
+  'guide.kidsWelcome',
+  'guide.kidsShapeMemory',
+  'guide.kidsColorShape',
+  'guide.kidsMath',
+  'guide.kidsHaveFun',
+  'guide.parentsHeading',
+  'guide.parentsPrivacy',
+  'guide.parentsAgeBands',
+  'guide.parentsModes',
+  'guide.parentsAccessibility',
+  'guide.parentsLocalStorage',
 ] as const
 
 describe('OAS-422-T2 en dictionary completeness', () => {
