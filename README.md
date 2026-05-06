@@ -6,7 +6,8 @@ A static, kid-safe educational SPA (Vite + React + TypeScript) deployed to Verce
 
 ## Deployment (Vercel)
 
-- **Import** this repo in the [Vercel dashboard](https://vercel.com) and set **Root Directory** to `app` (the Vite app and [app/vercel.json](app/vercel.json) live there).
+- **Linked CLI project:** team **michael-polzins-projects**, project **`worldgame`** (from `app/`: `npx vercel link --yes --project worldgame`). Inspect deployments in the [worldgame project](https://vercel.com/michael-polzins-projects/worldgame).
+- **Import** this repo in the [Vercel dashboard](https://vercel.com) if you prefer dashboard-first setup, and set **Root Directory** to `app` (the Vite app and [app/vercel.json](app/vercel.json) live there). For Git-triggered builds, connect **GitHub → TMDLRG/WorldGame** on that project (CLI `vercel git connect` may fail until the Vercel GitHub integration has access to the org/repo).
 - **Production build**: `npm run build` → static output in `app/dist`; SPA rewrites and security headers are defined in `app/vercel.json`.
 - **CLI**: from `app/`, `npx vercel --prod` deploys using the linked team/project. After GitHub is connected, pushes to `main` should trigger Preview / Production per your project settings.
 - If unauthenticated requests return **401**, turn off **Deployment Protection** for this project (Vercel → Project → Settings → Deployment Protection), or open the URL while signed into the same Vercel team.
